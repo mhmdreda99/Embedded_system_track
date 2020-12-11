@@ -3,7 +3,7 @@
 
 int main()
 {
-    int Id[3]={1999,4422,1145};
+   // int Id[3]={1999,4422,1145};
     int option;
     printf("\n\t\tPlease Enter the student id:");
     scanf("%d",&option); // get the input from user
