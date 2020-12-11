@@ -16,16 +16,17 @@
 int main()
 {
 
-  int worked_hr;
-   int hr_rate=50;
-   int employee_salary=0;
-   int min_hr=40;
-   int deduction=0;  
+    int worked_hr;
+    int deduction;  
+    int employee_salary;
+    int hr_rate=50;
+    int min_hr=40;
+  
 
    printf("\r\n\tPlease enter the number of your work hours: "); 
    scanf("%d",&worked_hr);  // get the input from user
 
-   if (worked_hr>min_hr ||worked_hr=min_hr  ){
+   if (worked_hr>min_hr ||worked_hr==min_hr  ){
        employee_salary=worked_hr*hr_rate;
    }
    else if (worked_hr<min_hr)
