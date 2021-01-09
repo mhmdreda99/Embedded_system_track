@@ -62,10 +62,12 @@ void main(void)
 
 		 }
 
-
+        
 // print average of each column 
-		 printf( "\tThe Average for student %d is %d\n",
-				 		  x + 1,  sum/3 );
+		 printf( "\tThe Average for subjects %d is %d\n",
+				 		  subject+1,  sum/3 );
+						   
+						   
 	 }
 
 
